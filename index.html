@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Showroom</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #0a0a0a; color: white; }
+        header { background: linear-gradient(135deg, #ff6600, #ff0000);
+            padding: 30px; text-align: center; }
+        header h1 { font-size: 42px; font-weight: bold; }
+        header p { font-size: 18px; margin-top: 8px; }
+        .bikes { display: flex; flex-wrap: wrap;
+            justify-content: center; padding: 40px; gap: 30px; }
+        .card { background: #1a1a1a; border-radius: 15px;
+            width: 320px; padding: 20px; text-align: center;
+            border: 1px solid #333; }
+        .card img { width: 100%; height: 200px;
+            object-fit: cover; border-radius: 10px; }
+        .card h2 { margin: 15px 0 5px;
+            font-size: 22px; color: #ff6600; }
+        .card p { font-size: 14px; color: #aaa; margin-bottom: 10px; }
+        .card .price { font-size: 22px;
+            color: #00ff88; font-weight: bold; }
+        .card button { margin-top: 15px; padding: 10px 25px;
+            background: #ff6600; color: white; border: none;
+            border-radius: 8px; cursor: pointer; font-size: 16px; }
+        .card button:hover { background: #cc5200; }
+        footer { text-align: center; padding: 20px;
+            background: #111; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🏍️ Elite Bike Showroom</h1>
+        <p>Find your dream bike today</p>
+    </header>
+
+    <div class="bikes">
+        <div class="card">
+            <img src="images/bike1.jpg" alt="Royal Enfield">
+            <h2>Royal Enfield Meteor</h2>
+            <p>350cc | Single Cylinder | 20.4 HP</p>
+            <div class="price">₹2,09,000</div>
+            <button>Book Now</button>
+        </div>
+        <div class="card">
+            <img src="images/bike2.jpg" alt="KTM Duke">
+            <h2>KTM Duke 390</h2>
+            <p>373cc | Single Cylinder | 43 HP</p>
+            <div class="price">₹3,11,000</div>
+            <button>Book Now</button>
+        </div>
+        <div class="card">
+            <img src="images/bike3.jpg" alt="Kawasaki">
+            <h2>Kawasaki Ninja 650</h2>
+            <p>649cc | Parallel Twin | 67 HP</p>
+            <div class="price">₹7,49,000</div>
+            <button>Book Now</button>
+        </div>
+        <div class="card">
+            <img src="images/bike4.jpg" alt="Yamaha R15">
+            <h2>Yamaha R15 V4</h2>
+            <p>155cc | Single Cylinder | 18.4 HP</p>
+            <div class="price">₹1,85,000</div>
+            <button>Book Now</button>
+        </div>
+        <div class="card">
+            <img src="images/bike5.jpg" alt="Honda CBR">
+            <h2>Honda CBR 650R</h2>
+            <p>649cc | Inline 4 | 87 HP</p>
+            <div class="price">₹8,50,000</div>
+            <button>Book Now</button>
+        </div>
+        <div class="card">
+            <img src="images/bike6.jpg" alt="Bajaj Dominar">
+            <h2>Bajaj Dominar 400</h2>
+            <p>373cc | Single Cylinder | 40 HP</p>
+            <div class="price">₹2,23,000</div>
+            <button>Book Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Elite Bike Showroom | Mumbai, India</p>
+    </footer>
+</body>
+</html
